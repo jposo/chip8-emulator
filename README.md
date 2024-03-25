@@ -1,5 +1,5 @@
 # chip8-emulator
-Chip-8 Emulator created by following the guide made by [aquova](hhttps://github.com/aquova/chip8-book).
+Chip-8 Emulator created by following the guide made by [aquova](https://github.com/aquova/chip8-book).
 
 Chip-8 games are in the `c8games` directory.
 
