@@ -1,0 +1,11 @@
+[package]
+name = "chip8_core"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# require rand to include the wasm-bindgen upon compilation
+# allows it to work correctly in wasm binary
+rand = { version = "^0.7.3", features = ["wasm-bindgen"] }
